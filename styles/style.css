@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4em;
+}
+
+img{
+    filter: blur(8px);
+    width: 48em;
+    transition: .1s;
+}
+
+img:hover{
+    transition: .1s;
+filter: blur(0);
+}
