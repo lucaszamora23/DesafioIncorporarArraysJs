@@ -48,3 +48,4 @@ paciente1.push(new Paciente (nombre, edad, altura, peso))
 alert (`${(nombre)}, tu plan ideál, basado en tu peso, tu altura, y tu edad, es el siguiente.`)
 
 console.log(paciente1)
+console.log(Paciente)
