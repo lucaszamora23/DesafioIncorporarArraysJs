@@ -1,7 +1,7 @@
 // SITUACION: Una nutricionista, a traves de su página web, nos pide que ingresemos los datos de cada uno de sus pacientes, y en base a eso, te devuelve que tipo de plan alimenticio deberían seguir
 
 class Paciente {
-    constructor(nombre="", apellido="", edad=1, altura=100, peso=10){
+    constructor(nombre="", edad=1, altura=100, peso=10){
     this.nombre= nombre;
     this.edad= edad;
     this.altura= altura;
